@@ -1,0 +1,9 @@
+C:\Users\achawla\Documents\Visual Studio 2015\Projects\PersonalPractice\Week4_Coffee_Sales\Week4_Coffee_Sales\bin\Debug\Week4_Coffee_Sales.exe.config
+C:\Users\achawla\Documents\Visual Studio 2015\Projects\PersonalPractice\Week4_Coffee_Sales\Week4_Coffee_Sales\bin\Debug\Week4_Coffee_Sales.exe
+C:\Users\achawla\Documents\Visual Studio 2015\Projects\PersonalPractice\Week4_Coffee_Sales\Week4_Coffee_Sales\bin\Debug\Week4_Coffee_Sales.pdb
+C:\Users\achawla\Documents\Visual Studio 2015\Projects\PersonalPractice\Week4_Coffee_Sales\Week4_Coffee_Sales\obj\Debug\Week4_Coffee_Sales.csprojResolveAssemblyReference.cache
+C:\Users\achawla\Documents\Visual Studio 2015\Projects\PersonalPractice\Week4_Coffee_Sales\Week4_Coffee_Sales\obj\Debug\Week4_Coffee_Sales.frmCoffeeShop.resources
+C:\Users\achawla\Documents\Visual Studio 2015\Projects\PersonalPractice\Week4_Coffee_Sales\Week4_Coffee_Sales\obj\Debug\Week4_Coffee_Sales.Properties.Resources.resources
+C:\Users\achawla\Documents\Visual Studio 2015\Projects\PersonalPractice\Week4_Coffee_Sales\Week4_Coffee_Sales\obj\Debug\Week4_Coffee_Sales.csproj.GenerateResource.Cache
+C:\Users\achawla\Documents\Visual Studio 2015\Projects\PersonalPractice\Week4_Coffee_Sales\Week4_Coffee_Sales\obj\Debug\Week4_Coffee_Sales.exe
+C:\Users\achawla\Documents\Visual Studio 2015\Projects\PersonalPractice\Week4_Coffee_Sales\Week4_Coffee_Sales\obj\Debug\Week4_Coffee_Sales.pdb
