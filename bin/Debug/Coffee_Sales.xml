@@ -4,6 +4,22 @@
         <name>Coffee_Sales</name>
     </assembly>
     <members>
+        <member name="F:Coffee_Sales.frmAbout.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Coffee_Sales.frmAbout.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:Coffee_Sales.frmAbout.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
         <member name="M:Coffee_Sales.frmCoffeeShop.frmCoffeeShop_Load(System.Object,System.EventArgs)">
             <summary>
             Default settings when the form is loaded
@@ -31,6 +47,23 @@
         <member name="M:Coffee_Sales.Program.Main">
             <summary>
             The main entry point for the application.
+            </summary>
+        </member>
+        <member name="F:Coffee_Sales.SplashScreen.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Coffee_Sales.SplashScreen.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Coffee_Sales.SplashScreen.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
             </summary>
         </member>
         <member name="T:Coffee_Sales.Properties.Resources">

@@ -206,6 +206,18 @@ namespace Coffee_Sales
             }
         }
 
+        private void tsmiAbout_Click(object sender, EventArgs e)
+        {
+            frmAbout about = new frmAbout();
+            about.Show();
+        }
+
+        private void btnSummary_Click(object sender, EventArgs e)
+        {
+            frmSummary summary = new frmSummary();
+            summary.Show();
+        }
+
         private void btnNewOrder_Click(object sender, EventArgs e)
         {
             DialogResult confirm;

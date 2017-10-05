@@ -68,3 +68,16 @@ C:\Users\achawla\Documents\courses\RAD_C#\F2017\Thursday\Lesson3_Coffee_Sales_Th
 C:\Users\achawla\Documents\courses\RAD_C#\F2017\Thursday\Lesson3_Coffee_Sales_Thursday\Coffee_Sales\Coffee_Sales\obj\Debug\Coffee_Sales.csproj.CoreCompileInputs.cache
 C:\Users\achawla\Documents\courses\RAD_C#\F2017\Thursday\Lesson3_Coffee_Sales_Thursday\Coffee_Sales\Coffee_Sales\obj\Debug\Coffee_Sales.exe
 C:\Users\achawla\Documents\courses\RAD_C#\F2017\Thursday\Lesson3_Coffee_Sales_Thursday\Coffee_Sales\Coffee_Sales\obj\Debug\Coffee_Sales.pdb
+C:\Users\achawla\Documents\courses\RAD_C#\F2017\Thursday\Lesson4_Coffee_Sales_Thursday\Coffee_Sales\Coffee_Sales\bin\Debug\Coffee_Sales.exe.config
+C:\Users\achawla\Documents\courses\RAD_C#\F2017\Thursday\Lesson4_Coffee_Sales_Thursday\Coffee_Sales\Coffee_Sales\bin\Debug\Coffee_Sales.xml
+C:\Users\achawla\Documents\courses\RAD_C#\F2017\Thursday\Lesson4_Coffee_Sales_Thursday\Coffee_Sales\Coffee_Sales\bin\Debug\Coffee_Sales.exe
+C:\Users\achawla\Documents\courses\RAD_C#\F2017\Thursday\Lesson4_Coffee_Sales_Thursday\Coffee_Sales\Coffee_Sales\bin\Debug\Coffee_Sales.pdb
+C:\Users\achawla\Documents\courses\RAD_C#\F2017\Thursday\Lesson4_Coffee_Sales_Thursday\Coffee_Sales\Coffee_Sales\obj\Debug\Coffee_Sales.csprojResolveAssemblyReference.cache
+C:\Users\achawla\Documents\courses\RAD_C#\F2017\Thursday\Lesson4_Coffee_Sales_Thursday\Coffee_Sales\Coffee_Sales\obj\Debug\Coffee_Sales.frmCoffeeShop.resources
+C:\Users\achawla\Documents\courses\RAD_C#\F2017\Thursday\Lesson4_Coffee_Sales_Thursday\Coffee_Sales\Coffee_Sales\obj\Debug\Coffee_Sales.Properties.Resources.resources
+C:\Users\achawla\Documents\courses\RAD_C#\F2017\Thursday\Lesson4_Coffee_Sales_Thursday\Coffee_Sales\Coffee_Sales\obj\Debug\Coffee_Sales.csproj.GenerateResource.Cache
+C:\Users\achawla\Documents\courses\RAD_C#\F2017\Thursday\Lesson4_Coffee_Sales_Thursday\Coffee_Sales\Coffee_Sales\obj\Debug\Coffee_Sales.csproj.CoreCompileInputs.cache
+C:\Users\achawla\Documents\courses\RAD_C#\F2017\Thursday\Lesson4_Coffee_Sales_Thursday\Coffee_Sales\Coffee_Sales\obj\Debug\Coffee_Sales.exe
+C:\Users\achawla\Documents\courses\RAD_C#\F2017\Thursday\Lesson4_Coffee_Sales_Thursday\Coffee_Sales\Coffee_Sales\obj\Debug\Coffee_Sales.pdb
+C:\Users\achawla\Documents\courses\RAD_C#\F2017\Thursday\Lesson4_Coffee_Sales_Thursday\Coffee_Sales\Coffee_Sales\obj\Debug\Coffee_Sales.SplashScreen.resources
+C:\Users\achawla\Documents\courses\RAD_C#\F2017\Thursday\Lesson4_Coffee_Sales_Thursday\Coffee_Sales\Coffee_Sales\obj\Debug\Coffee_Sales.frmAbout.resources

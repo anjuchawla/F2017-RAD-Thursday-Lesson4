@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -53,9 +54,29 @@
             this.label4 = new System.Windows.Forms.Label();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnNewOrder = new System.Windows.Forms.Button();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.csmiAbout = new System.Windows.Forms.ToolStripMenuItem();
+            this.csmiExit = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.tsmiFile = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiEdit = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiHelp = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiAbout = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiCalculate = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiClear = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.tsmiFont = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiColor = new System.Windows.Forms.ToolStripMenuItem();
+            this.newOrderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiSummary = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.tsmiExit = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnSummary = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.grpCoffee.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            this.contextMenuStrip1.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -305,7 +326,7 @@
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(520, 557);
+            this.btnExit.Location = new System.Drawing.Point(517, 560);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(100, 30);
             this.btnExit.TabIndex = 2;
@@ -315,13 +336,154 @@
             // 
             // btnNewOrder
             // 
-            this.btnNewOrder.Location = new System.Drawing.Point(408, 558);
+            this.btnNewOrder.Location = new System.Drawing.Point(411, 561);
             this.btnNewOrder.Name = "btnNewOrder";
             this.btnNewOrder.Size = new System.Drawing.Size(100, 29);
             this.btnNewOrder.TabIndex = 1;
             this.btnNewOrder.Text = "&New Order";
             this.btnNewOrder.UseVisualStyleBackColor = true;
             this.btnNewOrder.Click += new System.EventHandler(this.btnNewOrder_Click);
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.csmiAbout,
+            this.csmiExit});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(120, 52);
+            // 
+            // csmiAbout
+            // 
+            this.csmiAbout.Name = "csmiAbout";
+            this.csmiAbout.Size = new System.Drawing.Size(119, 24);
+            this.csmiAbout.Text = "&About";
+            this.csmiAbout.Click += new System.EventHandler(this.tsmiAbout_Click);
+            // 
+            // csmiExit
+            // 
+            this.csmiExit.Name = "csmiExit";
+            this.csmiExit.Size = new System.Drawing.Size(119, 24);
+            this.csmiExit.Text = "E&xit";
+            this.csmiExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmiFile,
+            this.tsmiEdit,
+            this.tsmiHelp});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(645, 28);
+            this.menuStrip1.TabIndex = 7;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // tsmiFile
+            // 
+            this.tsmiFile.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.newOrderToolStripMenuItem,
+            this.tsmiSummary,
+            this.toolStripSeparator2,
+            this.tsmiExit});
+            this.tsmiFile.Name = "tsmiFile";
+            this.tsmiFile.Size = new System.Drawing.Size(44, 24);
+            this.tsmiFile.Text = "&File";
+            // 
+            // tsmiEdit
+            // 
+            this.tsmiEdit.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmiCalculate,
+            this.tsmiClear,
+            this.toolStripSeparator1,
+            this.tsmiFont,
+            this.tsmiColor});
+            this.tsmiEdit.Name = "tsmiEdit";
+            this.tsmiEdit.Size = new System.Drawing.Size(47, 24);
+            this.tsmiEdit.Text = "&Edit";
+            // 
+            // tsmiHelp
+            // 
+            this.tsmiHelp.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmiAbout});
+            this.tsmiHelp.Name = "tsmiHelp";
+            this.tsmiHelp.Size = new System.Drawing.Size(53, 24);
+            this.tsmiHelp.Text = "&Help";
+            // 
+            // tsmiAbout
+            // 
+            this.tsmiAbout.Name = "tsmiAbout";
+            this.tsmiAbout.Size = new System.Drawing.Size(181, 26);
+            this.tsmiAbout.Text = "&About";
+            this.tsmiAbout.Click += new System.EventHandler(this.tsmiAbout_Click);
+            // 
+            // tsmiCalculate
+            // 
+            this.tsmiCalculate.Name = "tsmiCalculate";
+            this.tsmiCalculate.Size = new System.Drawing.Size(210, 26);
+            this.tsmiCalculate.Text = "&Calculate Selection";
+            this.tsmiCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
+            // 
+            // tsmiClear
+            // 
+            this.tsmiClear.Name = "tsmiClear";
+            this.tsmiClear.Size = new System.Drawing.Size(210, 26);
+            this.tsmiClear.Text = "C&lear";
+            this.tsmiClear.Click += new System.EventHandler(this.btnClear_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(207, 6);
+            // 
+            // tsmiFont
+            // 
+            this.tsmiFont.Name = "tsmiFont";
+            this.tsmiFont.Size = new System.Drawing.Size(210, 26);
+            this.tsmiFont.Text = "&Font...";
+            // 
+            // tsmiColor
+            // 
+            this.tsmiColor.Name = "tsmiColor";
+            this.tsmiColor.Size = new System.Drawing.Size(210, 26);
+            this.tsmiColor.Text = "C&olor...";
+            // 
+            // newOrderToolStripMenuItem
+            // 
+            this.newOrderToolStripMenuItem.Name = "newOrderToolStripMenuItem";
+            this.newOrderToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
+            this.newOrderToolStripMenuItem.Text = "&New Order";
+            this.newOrderToolStripMenuItem.Click += new System.EventHandler(this.btnNewOrder_Click);
+            // 
+            // tsmiSummary
+            // 
+            this.tsmiSummary.Name = "tsmiSummary";
+            this.tsmiSummary.Size = new System.Drawing.Size(181, 26);
+            this.tsmiSummary.Text = "&Summary";
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(178, 6);
+            // 
+            // tsmiExit
+            // 
+            this.tsmiExit.Name = "tsmiExit";
+            this.tsmiExit.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
+            this.tsmiExit.Size = new System.Drawing.Size(181, 26);
+            this.tsmiExit.Text = "E&xit";
+            this.tsmiExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
+            // btnSummary
+            // 
+            this.btnSummary.Location = new System.Drawing.Point(305, 561);
+            this.btnSummary.Name = "btnSummary";
+            this.btnSummary.Size = new System.Drawing.Size(100, 29);
+            this.btnSummary.TabIndex = 8;
+            this.btnSummary.Text = "&Summary";
+            this.btnSummary.UseVisualStyleBackColor = true;
+            this.btnSummary.Click += new System.EventHandler(this.btnSummary_Click);
             // 
             // frmCoffeeShop
             // 
@@ -330,6 +492,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnClear;
             this.ClientSize = new System.Drawing.Size(645, 621);
+            this.ContextMenuStrip = this.contextMenuStrip1;
+            this.Controls.Add(this.btnSummary);
+            this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.btnNewOrder);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.groupBox3);
@@ -337,6 +502,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.Name = "frmCoffeeShop";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -348,6 +514,9 @@
             this.grpCoffee.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            this.contextMenuStrip1.ResumeLayout(false);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -380,6 +549,24 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnNewOrder;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem csmiAbout;
+        private System.Windows.Forms.ToolStripMenuItem csmiExit;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem tsmiFile;
+        private System.Windows.Forms.ToolStripMenuItem newOrderToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tsmiSummary;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+        private System.Windows.Forms.ToolStripMenuItem tsmiExit;
+        private System.Windows.Forms.ToolStripMenuItem tsmiEdit;
+        private System.Windows.Forms.ToolStripMenuItem tsmiCalculate;
+        private System.Windows.Forms.ToolStripMenuItem tsmiClear;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.ToolStripMenuItem tsmiFont;
+        private System.Windows.Forms.ToolStripMenuItem tsmiColor;
+        private System.Windows.Forms.ToolStripMenuItem tsmiHelp;
+        private System.Windows.Forms.ToolStripMenuItem tsmiAbout;
+        private System.Windows.Forms.Button btnSummary;
     }
 }
 
